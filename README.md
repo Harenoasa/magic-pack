@@ -7,9 +7,18 @@
 ## 前置要求：WoL、路由畅通
 
 ## 使用方式
-### 填写IP和物理（MAC）地址
+
+### 如果使用release(jar包)
+#### 下载release，解压压缩包
+#### 填写IP和物理（MAC）地址
 - 填写地址：wake-on-lan.properties
 - 参照：wake-on-lan.properties.example
-- 在IDE（IDEA/VSCODE etc.）中执行src/MagicPack即可
-
-
+#### windows在搜索栏键入cmd进入该层级控制台
+#### 在控制台执行：java -jar magic-pack.jar,可type键自动补全
+### 如果使用IDE或Javac
+#### 克隆源码
+#### 
+#### 填写IP和物理（MAC）地址
+- 填写地址：wake-on-lan.properties
+- 参照：wake-on-lan.properties.example
+#### 在IDE（IDEA/VSCODE etc.）中执行src/MagicPack即可
